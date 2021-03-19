@@ -9,6 +9,9 @@ List of books I've read:
 
 #### 2021
 
+* _Second Foundation_ (1953), Isaac Asimov, 256 pp
+* _Foundation and the Empire_ (1952), Isaac Asimov, 247 pp
+* _Foundation_ (1951), Isaac Asimov, 244 pp
 * _The Ballad of Songbirds and Snakes_ (2020), Suzanne Collins, pp 439
 * _How to Think Like a Roman Emperor: The Stoic Philosophy of Marcus Aurelius_ (2019), Donald J. Robertson, pp 304
 
