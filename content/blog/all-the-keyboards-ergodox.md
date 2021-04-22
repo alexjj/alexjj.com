@@ -6,7 +6,6 @@ tags = ["keyboard"]
 title = "All the keyboards: Ergodox"
 
 +++
-
 ![](/images/ErgoDox_001.png)
 
 I’d heard / seen online about the ergodox. I feel like it was one of the early custom design keyboards that turned into a product line. The design was made available to anyone and in the beginning you’d have to build it yourself or join a group buy. This progressed to a couple of online stores stocking parts so you could build it yourself and I think massdrop (now called drop.com) used to do a run of it every so often.
@@ -28,3 +27,5 @@ As a split board there’s no ability for one hand to type the other’s keys. T
 I typed slowly and fiddled around with the layouts and layers, I tried many different key caps, and I tried tenting, but all of which didn't make me want to use or keep this board. My wrists grew uncomfortable and it was generally unpleasant to use. I contacted ergodoxez to see if they had any suggestions but in the end I gave up. I think my thumb didn't like the angle to press the thumb keys, which were spacebar and enter, so pretty common keys.
 
 Like many of the boards I sold it on reddit.
+
+![](/images/ergodoxez.jpg)
