@@ -1,7 +1,6 @@
 +++
 date = 2021-01-11T00:00:00Z
 description = "The ergo-classic"
-draft = true
 tags = ["keyboard"]
 title = "All the keyboards: Ergodox"
 
