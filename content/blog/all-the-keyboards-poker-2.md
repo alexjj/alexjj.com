@@ -9,7 +9,7 @@ title = "All the keyboards: Poker 2"
 
 * [Part 0: Introduction](https://alexjj.com/blog/all-the-keyboards-part-0/)
 * Part 1: Poker 2
-* Part 2: Ergodox
+* [Part 2: Ergodox](/blog/all-the-keyboards-ergodox/)
 * Part 3: Clueboard
 * Part 4: WASD V2 88-Key ISO
 * Part 5: IBM Model M
