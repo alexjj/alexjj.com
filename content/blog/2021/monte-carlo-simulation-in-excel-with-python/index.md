@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "Monte Carlo Simulation in Excel with Python"
 date =  2021-11-25
 [taxonomies]
 tags =  ["Python", "Excel"]
 [extra]
-subtitle =  "Simulating the possible with python and excel"
+summary =  "Simulating the possible with python and excel"
 image = "dice-thumb.png"
 +++
 

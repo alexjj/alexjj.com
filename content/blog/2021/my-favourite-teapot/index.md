@@ -1,10 +1,10 @@
-summary +++
++++
 date =  2021-09-27
 title =  "My favourite teapot 🫖"
 [taxonomies]
 tags =  ["Lifestyle"]
 [extra]
-subtitle = "What a lovely teapot. Excellent spout."
+summary = "What a lovely teapot. Excellent spout."
 image = "teapot-thumb.jpg"
 +++
 

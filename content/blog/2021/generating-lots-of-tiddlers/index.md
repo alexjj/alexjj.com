@@ -4,7 +4,7 @@ date =  2021-12-15
 [taxonomies]
 tags =  ["Python", "Tiddlywiki"]
 [extra]
-subtitle =  "Programmatically creating tiddlers JSON"
+summary =  "Programmatically creating tiddlers JSON"
 image = "tw-thumb.png"
 +++
 
