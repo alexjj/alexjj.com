@@ -13,12 +13,12 @@ Hi! 👋 I'm Alex Johnstone. This is my weblog of interesting sundries. I enjoy 
 I'm enjoying undertaking [SOTA](https://gm5alx.uk/sota.html) activations - climbing mountains with my radio - and working my way towards 1,000 points to achieve Mountain Goat status. Also been thinking about rock tumbling.
 
 
-## Other Pages
+## Pages
 
 * [Books](@/books.md) I've read
 * [Keepsakes](@/keep.md) I want to remind myself of
 
-## My other sites
+## Elsewhere
 
 * [Radio blog](https://gm5alx.uk)
 * [Wiki](https://wiki.alexjj.com)
