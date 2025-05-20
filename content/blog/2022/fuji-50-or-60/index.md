@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "Choosing between the Fuji 50mm f/2 and the 60mm f/2.4"
 date =  2022-12-18
 [taxonomies]
 tags =  ["Fuji", "Photography"]
 [extra]
-subtitle =  "Which is better?"
+summary =  "Which is better?"
 image = "fuji-50-60-thumb.jpg"
 +++
 

@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "I have a photo in an actual gallery 🌌"
 date =  2022-05-13
 [taxonomies]
 tags =  ["Photography"]
 [extra]
-subtitle =  "As seen in a London gallery!"
+summary =  "As seen in a London gallery!"
 image = "astro-photo-thumb.jpg"
 +++
 

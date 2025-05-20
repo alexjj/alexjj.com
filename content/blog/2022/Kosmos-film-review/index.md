@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "Kosmos Foto Mono Film Stock thoughts"
 date =  2022-09-10
 [taxonomies]
 tags =  ["Photography", "Film"]
 [extra]
-subtitle =  "Thoughts about this 35mm black and white film stock"
+summary =  "Thoughts about this 35mm black and white film stock"
 image = "kosmo-35mm-box-thumb.jpg"
 +++
 

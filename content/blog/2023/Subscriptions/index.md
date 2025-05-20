@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "Subscriptions"
 date =  2023-11-11
 [taxonomies]
 tags =  ["Finance"]
 [extra]
-subtitle =  "A drain or cost effective?"
+summary =  "A drain or cost effective?"
 image = "cancel-thumb.jpg"
 +++
 

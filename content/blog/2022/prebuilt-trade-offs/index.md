@@ -4,7 +4,7 @@ date =  2022-10-01
 [taxonomies]
 tags =  ["Hardware"]
 [extra]
-subtitle =  "Discussing the pros and cons of buying a prebuilt vs. making you own"
+summary =  "Discussing the pros and cons of buying a prebuilt vs. making you own"
 +++
 
 

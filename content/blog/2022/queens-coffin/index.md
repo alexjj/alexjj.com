@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "Seeing the Queen's cortège"
 date =  2022-09-11
 [taxonomies]
 tags =  ["Events"]
 [extra]
-subtitle =  "We go and see the Queen's final journey"
+summary =  "We go and see the Queen's final journey"
 image = "queens-coffin-thumb.jpg"
 +++
 

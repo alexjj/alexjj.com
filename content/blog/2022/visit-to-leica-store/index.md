@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "Visiting the London Leica Store"
 date =  2022-09-17
 [taxonomies]
 tags =  ["Leica", "Photography"]
 [extra]
-subtitle =  "A brief visit to the Leica store in Mayfair"
+summary =  "A brief visit to the Leica store in Mayfair"
 image = "leica-mayfair-thumb.jpg"
 +++
 

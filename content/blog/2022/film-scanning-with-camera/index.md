@@ -4,7 +4,7 @@ date =  2022-10-26
 [taxonomies]
 tags =  ["Photography", "Film"]
 [extra]
-subtitle =  "First attempts at scanning with digital"
+summary =  "First attempts at scanning with digital"
 image = "camera-scanning-thumb.jpg"
 +++
 

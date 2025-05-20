@@ -8,7 +8,7 @@ subtitle =  "Explaining my setup with beancount, fava, and pythonanywhere"
 image = "fava-screenshot-02.png"
 +++
 
-:::{.callout-important}
+⚠️
 This guide is considerably old. However, the concept will still work but likely the configuration is now different.
 :::
 

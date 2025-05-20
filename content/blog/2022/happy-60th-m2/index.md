@@ -1,11 +1,11 @@
-summary +++
++++
 title =  "Happy 60th Birthday! 🎂📷"
 date =  2022-09-07
 [taxonomies]
 tags =  ["Photography", "Leica"]
 [extra]
 image = "90tele-elmarit-m-thumb.jpeg"
-subtitle =  "My Leica M2 film camera celebrates 60 years of age"
+summary =  "My Leica M2 film camera celebrates 60 years of age"
 +++
 
 ![60 years of rewinding](Leica-M2-wear.jpg "60 years of rewinding")

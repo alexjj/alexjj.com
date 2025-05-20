@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "Print"
 date =  2022-11-03
 [taxonomies]
 tags =  ["Photography"]
 [extra]
-subtitle =  "Print your photos"
+summary =  "Print your photos"
 +++
 
 Print out your photos. Please remind me to do this. It's so fun to hold them in your hand and look at them. You really study them when they're there and it's not a queue of 200 images to get through.

@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "My first successful 35 mm development"
 date =  2022-09-27
 [taxonomies]
 tags =  ["Photography", "Film"]
 [extra]
-subtitle =  "I finally make it all work and develop my first roll of 35mm film"
+summary =  "I finally make it all work and develop my first roll of 35mm film"
 image = "35mm-dev-success-thumb.jpg"
 +++
 

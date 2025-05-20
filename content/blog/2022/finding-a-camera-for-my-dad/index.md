@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "Finding a camera for my dad"
 date =  2022-10-17
 [taxonomies]
 tags =  ["Photography"]
 [extra]
-subtitle =  "Discussing options for a camera for my dad"
+summary =  "Discussing options for a camera for my dad"
 image = "F100-thumb.jpeg"
 +++
 

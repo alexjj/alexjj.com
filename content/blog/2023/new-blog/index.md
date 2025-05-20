@@ -1,10 +1,10 @@
-summary +++
++++
 title =  "A new radio blog"
 date =  2023-08-16
 [taxonomies]
 tags =  ["Radio"]
 [extra]
-subtitle =  "Everyone needs more blogs, right?"
+summary =  "Everyone needs more blogs, right?"
 image = "gm5alx-thumb.jpg"
 +++
 
