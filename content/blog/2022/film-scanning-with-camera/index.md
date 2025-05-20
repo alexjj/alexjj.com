@@ -1,8 +1,10 @@
 +++
 title =  "Film scanning with my digital camera"
-tags =  ["Photography", "Film"]
-subtitle =  "First attempts at scanning with digital"
 date =  2022-10-26
+[taxonomies]
+tags =  ["Photography", "Film"]
+[extra]
+subtitle =  "First attempts at scanning with digital"
 image = "camera-scanning-thumb.jpg"
 +++
 

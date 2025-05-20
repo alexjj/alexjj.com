@@ -1,8 +1,10 @@
 +++
 title =  "A little writing nook"
 date =  2022-05-25
-subtitle =  "Making a nice place to write"
+[taxonomies]
 tags =  ["Lifestyle", "Writing"]
+[extra]
+subtitle =  "Making a nice place to write"
 image = "analogue-writing.jpeg"
 +++
 

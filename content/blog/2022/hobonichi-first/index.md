@@ -1,8 +1,10 @@
 +++
 title =  "Hobonichi - for those that want to be told what to do"
 date =  2022-06-21
-subtitle =  "First impressions with the Hobnichi Techno notebook"
+[taxonomies]
 tags =  ["Writing", "Notebooks"]
+[extra]
+subtitle =  "First impressions with the Hobnichi Techno notebook"
 image = "hobonichi-thumb.jpg"
 +++
 

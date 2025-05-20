@@ -1,8 +1,10 @@
 +++
 title =  "First attempts with 4x5"
 date =  2023-01-27
-subtitle =  "Taking snapshots like it's 1924"
+[taxonomies]
 tags =  ["Photography", "Film"]
+[extra]
+subtitle =  "Taking snapshots like it's 1924"
 image = "bandjpress-thumb.jpg"
 +++
 

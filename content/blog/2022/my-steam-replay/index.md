@@ -1,9 +1,11 @@
 +++
 title =  "My 2022 Steam Replay"
 date =  2022-12-27
-subtitle =  "I never play any games"
+[taxonomies]
 tags =  ["Games"]
+[extra]
 image = "thumb.png"
+subtitle =  "I never play any games"
 +++
 
 Annual recaps seem to be the trend in social media and apps. It's quite interesting actually. Reddit did one, which told me the scary number of hours I've spent on the app. Including spending 25 hours on /r/leica 🤫

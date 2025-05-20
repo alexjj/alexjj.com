@@ -1,8 +1,10 @@
 +++
 title =  "Compact Cameras"
 date =  2022-06-21
-subtitle =  "An unnecessary journey into the world of compact cameras"
+[taxonomies]
 tags =  ["Photography"]
+[extra]
+subtitle =  "An unnecessary journey into the world of compact cameras"
 image = "ricohgr3-thumb.jpg"
 +++
 

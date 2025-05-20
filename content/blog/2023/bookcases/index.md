@@ -1,8 +1,10 @@
 +++
 title =  "Bookcases"
 date =  2023-03-03
-subtitle =  "A joy to behold"
+[taxonomies]
 tags =  ["Books", "Home"]
+[extra]
+subtitle =  "A joy to behold"
 image = "bookcase-2-thumb.jpg"
 +++
 

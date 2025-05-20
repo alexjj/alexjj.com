@@ -1,8 +1,10 @@
 +++
 title =  "Changes to the Scottish Tax Bands"
 date =  2024-02-05
-subtitle =  "This ain't no temporary refund adjustment"
+[taxonomies]
 tags =  ["Python", "Finance"]
+[extra]
+subtitle =  "This ain't no temporary refund adjustment"
 image = "ai-thumb.jpg"
 +++
 

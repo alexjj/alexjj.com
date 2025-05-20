@@ -1,8 +1,10 @@
 +++
 title =  "A new Fujifilm lens"
-subtitle =  "Welcoming yet another lens to my collection"
 date =  2022-10-05
+[taxonomies]
 tags =  ["Photography", "Fuji"]
+[extra]
+subtitle =  "Welcoming yet another lens to my collection"
 image = "fuji-35-14-thumb.jpg"
 +++
 

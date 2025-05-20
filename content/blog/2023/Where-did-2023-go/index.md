@@ -1,7 +1,9 @@
 +++
 title =  "Where did 2023 go?"
 date =  2023-12-31
+[taxonomies]
 tags =  ["Lifestyle"]
+[extra]
 subtitle =  "And just what did I do?"
 image = "Thoughtful-thumb.jpeg"
 +++

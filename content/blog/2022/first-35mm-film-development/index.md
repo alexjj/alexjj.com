@@ -1,8 +1,10 @@
 +++
 title =  "First attempt at 35mm development"
 date =  2022-09-21
-subtitle =  "It doesn't go well"
+[taxonomies]
 tags =  ["Photography", "Film"]
+[extra]
+subtitle =  "It doesn't go well"
 image = "first-35mm-dev-thumb.jpg"
 +++
 

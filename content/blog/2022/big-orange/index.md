@@ -1,8 +1,10 @@
 +++
 title =  "Big Orange 🍊"
 date =  2022-06-22
-subtitle =  "Idle thoughts about the fruit"
+[taxonomies]
 tags =  ["Random"]
+[extra]
+subtitle =  "Idle thoughts about the fruit"
 image = "bigorange-feature.jpg"
 +++
 

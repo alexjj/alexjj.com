@@ -1,8 +1,10 @@
 +++
 date =  2021-09-27
 title =  "My favourite teapot 🫖"
-tags =  "Lifestyle"
-subtitle =  "What a lovely teapot. Excellent spout."
+[taxonomies]
+tags =  ["Lifestyle"]
+[extra]
+subtitle = "What a lovely teapot. Excellent spout."
 image = "teapot-thumb.jpg"
 +++
 

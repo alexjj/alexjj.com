@@ -1,7 +1,9 @@
 +++
 title =  "Managing my personal finances with beancount"
 date =  2016-02-27
+[taxonomies]
 tags =  ["Python", "Finance"]
+[extra]
 subtitle =  "Explaining my setup with beancount, fava, and pythonanywhere"
 image = "fava-screenshot-02.png"
 +++

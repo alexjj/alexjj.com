@@ -1,8 +1,10 @@
 +++
 title =  "Entering the world of Amateur Radio"
 date =  2023-05-14
-subtitle =  "What a rabbit hole"
+[taxonomies]
 tags =  ["Radio"]
+[extra]
+subtitle =  "What a rabbit hole"
 image = "parts-thumb.JPEG"
 +++
 

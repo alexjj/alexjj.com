@@ -1,8 +1,10 @@
 +++
 title =  "One Typed Page"
 date =  2023-11-19
-subtitle =  "Typewriter blogging"
+[taxonomies]
 tags =  ["Lifestyle", "Writing"]
+[extra]
+subtitle =  "Typewriter blogging"
 image = "typing-thumb.jpg"
 +++
 

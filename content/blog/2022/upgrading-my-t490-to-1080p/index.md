@@ -1,8 +1,10 @@
 +++
 title =  "Upgrading my T490 to 1080p"
 date =  2022-05-07
-subtitle =  "Replacing the screen on my laptop"
+[taxonomies]
 tags =  ["Hardware"]
+[extra]
+subtitle =  "Replacing the screen on my laptop"
 image = "thinkpad-t490-thumb.JPEG"
 +++
 

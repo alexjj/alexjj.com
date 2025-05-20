@@ -1,9 +1,11 @@
 +++
 title =  "A new keyboard🧹🦀"
 date =  2022-05-21
-subtitle =  "Building a new keyboard (again)"
+[taxonomies]
 tags =  ["Hardware", "Keyboard"]
+[extra]
 image = "built-sweep-feature.jpeg"
+subtitle =  "Building a new keyboard (again)"
 +++
 
 It’s been a long time since I last built a new keyboard. I think it was Christmas time 2018 when I bought the [Iris keyboard](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard) as the store had a sale on. Funnily enough that was a split keyboard. I keep meaning to write up a post about all my mechanical keyboards  (there’s been quite a few over the past nine years) and I’d enjoy going  back and remembering what I had.

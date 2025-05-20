@@ -1,8 +1,10 @@
 +++
 title =  "Generating lots of tiddlers"
 date =  2021-12-15
-subtitle =  "Programmatically creating tiddlers JSON"
+[taxonomies]
 tags =  ["Python", "Tiddlywiki"]
+[extra]
+subtitle =  "Programmatically creating tiddlers JSON"
 image = "tw-thumb.png"
 +++
 

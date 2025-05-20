@@ -1,10 +1,11 @@
 +++
 title =  "Seeing the Queen's cortège"
 date =  2022-09-11
-subtitle =  "We go and see the Queen's final journey"
-image = "queens-coffin-thumb.jpg"
 [taxonomies]
 tags =  ["Events"]
+[extra]
+subtitle =  "We go and see the Queen's final journey"
+image = "queens-coffin-thumb.jpg"
 +++
 
 The Queen is [travelling](https://www.bbc.co.uk/news/uk-scotland-62862148) from Balmoral Castle to Edinburgh, and goes along the main road that's a 10 minute walk from our house. Couldn't really be easier to go.

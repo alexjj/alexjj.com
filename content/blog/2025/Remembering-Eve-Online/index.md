@@ -1,7 +1,10 @@
 +++
 title =  "Remembering Eve Online"
-date =  2024-02-11
+date =  2025-05-20
 draft = true
+[taxonomies]
+tags = ["Games"]
+[extra]
 +++
 
 ## Background
