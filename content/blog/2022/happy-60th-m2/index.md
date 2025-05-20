@@ -6,7 +6,7 @@ tags =  ["Photography", "Leica"]
 image = "90tele-elmarit-m-thumb.jpeg"
 +++
 
-![60 years of rewinding](Leica M2 wear.jpg "60 years of rewinding")
+![60 years of rewinding](Leica-M2-wear.jpg "60 years of rewinding")
 
 My Leica M2 was made in 1962, according to the [serial number](https://www.l-camera-forum.com/leica-wiki.en/index.php/Serial_Numbers_Leica_Cameras), and it works just as well today as it did when it was first made.
 
