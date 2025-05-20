@@ -1,5 +1,4 @@
-# The URL the site will be built for
-base_url = "alexjj.pages.dev"
+base_url = "https://alexjj.pages.dev"
 theme = "anemone"
 compile_sass = false
 build_search_index = true
