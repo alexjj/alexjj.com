@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {# --- Markdown content above --- #}
+    
+    {{ page.content | split(pat="<!-- recent-posts -->") | first | safe }}
+
+    {# --- Inject recent blog posts --- #}
+      <h2>Latest Posts</h2>
+      {% set blog_section = get_section(path="blog/_index.md") %}
+      {% set recent_posts = blog_section.pages | sort(attribute="date") | reverse | slice(end=3) %}
+      <ul>
+        {% for post in recent_posts %}
+          <li>
+            <a href="{{ post.permalink }}">{{ post.title }}</a><span class="date">{{ post.date | date(format="%Y-%m-%d") }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+
+
+    {# --- Markdown content below --- #}
+      {{ page.content | split(pat="<!-- recent-posts -->") | last | safe }}
+
+{% endblock content %}

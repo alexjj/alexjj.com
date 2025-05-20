@@ -3,15 +3,12 @@
 
 Hi! 👋 I'm Alex Johnstone. This is my weblog of interesting sundries. I enjoy exploring new things, sometimes I get bored and move on and other things I stick at for a while.
 
-## Recent posts
-
-...
+<!-- recent-posts -->
 
 
 ## Now
 
-I'm enjoying undertaking SOTA activations - climbing mountains with my radio - and working my way towards 1,000 points to achieve Mountain Goat status. Also been thinking about rock tumbling.
-
+I'm enjoying undertaking [SOTA](https://gm5alx.uk/sota.html) activations - climbing mountains with my radio - and working my way towards 1,000 points to achieve Mountain Goat status. Also been thinking about rock tumbling.
 
 
 ## Other Pages
