@@ -32,7 +32,7 @@ internal_level = "warn"
 [extra]
 author = "Alex"
 favicon = "favicon.ico"
-list_pages = false
+list_pages = true
 twitter_card = true
 enable_search = true
 display_author = false

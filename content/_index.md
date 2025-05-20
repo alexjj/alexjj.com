@@ -5,7 +5,7 @@ Hi! 👋 I'm Alex Johnstone. This is my weblog of interesting sundries. I enjoy 
 
 ## Recent posts
 
-{{ latest_posts() }}
+...
 
 
 ## Now
