@@ -1,7 +1,7 @@
 +++
 title =  "Remembering Eve Online"
 date =  2024-02-11
-draft = "true"
+draft = true
 +++
 
 ## Background
