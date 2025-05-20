@@ -1,7 +1,7 @@
 +++
 +++
 
-Hi! 👋 I'm Alex Johnstone. This is my weblog of interesting sundries. I enjoy exploring new things, sometimes I get bored and move on and other things I stick at for a while.
+Hi! 👋 I'm Alex Johnstone. This is my weblog of interesting sundries. I enjoy exploring new things, sometimes I get bored and move on, and other times I stick at it for a while.
 
 ![](/me.jpg)
 
