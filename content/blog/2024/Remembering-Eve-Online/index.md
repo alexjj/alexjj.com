@@ -1,6 +1,7 @@
 +++
 title =  "Remembering Eve Online"
 date =  2024-02-11
+draft = "true"
 +++
 
 ## Background
@@ -32,11 +33,7 @@ Writing this has just made me remember another character I'd made (we'll get to 
 
 This is hard to write as there are so many facets to Eve Online, which is one of the attractions, and more and more content has been added over the years. For those who've never heard of Eve or never played it, I wanted to call out a few things that make this game unique.
 
-::: {.callout_important}
-
-I've not really played in over 14 years, so a lot of game mechanics will be different than when I played last.
-
-:::
+⚠️ I've not really played in over 14 years, so a lot of game mechanics will be different than when I played last.
 
 ### Lose all your stuff
 
