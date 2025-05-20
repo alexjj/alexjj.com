@@ -1,4 +1,4 @@
-base_url = "https://alexjj.pages.dev"
+base_url = "https://alexjj.com"
 theme = "anemone"
 compile_sass = false
 build_search_index = true
