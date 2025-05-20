@@ -1,4 +1,4 @@
-+++
+summary +++
 title =  "Hobonichi - for those that want to be told what to do"
 date =  2022-06-21
 [taxonomies]

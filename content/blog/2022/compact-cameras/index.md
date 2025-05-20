@@ -1,4 +1,4 @@
-+++
+summary +++
 title =  "Compact Cameras"
 date =  2022-06-21
 [taxonomies]

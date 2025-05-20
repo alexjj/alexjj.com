@@ -1,4 +1,4 @@
-+++
+summary +++
 title =  "Kosmos Foto Mono Film Stock thoughts"
 date =  2022-09-10
 [taxonomies]

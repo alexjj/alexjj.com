@@ -1,4 +1,4 @@
-+++
+summary +++
 title =  "Finding a camera for my dad"
 date =  2022-10-17
 [taxonomies]

@@ -1,4 +1,4 @@
-+++
+summary +++
 title =  "Visiting the London Leica Store"
 date =  2022-09-17
 [taxonomies]

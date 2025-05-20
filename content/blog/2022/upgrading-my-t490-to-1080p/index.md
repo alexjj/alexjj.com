@@ -1,4 +1,4 @@
-+++
+summary +++
 title =  "Upgrading my T490 to 1080p"
 date =  2022-05-07
 [taxonomies]

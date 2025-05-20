@@ -1,4 +1,4 @@
-+++
+summary +++
 title =  "A new Fujifilm lens"
 date =  2022-10-05
 [taxonomies]
