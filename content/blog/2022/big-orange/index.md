@@ -10,6 +10,8 @@ image = "bigorange-feature.jpg"
 
 I like big oranges. Navel or winter or Jaffa or  whatever they're called at various points of the year. They're always  big. Bigger than clementines or satsumas (what is the difference?) or  other citrus fruit of that colour but which are smaller. They're  satisfying to eat, they fill you up somewhat, generally juicy, and a  good size. They can be a pudding or a snack and you're not looking  around for another or something else. An all round good fruit.
 
+![](bigorange-feature.jpg)
+
 One thing that I've found over the years of eating big oranges in public,  is that not many people like big oranges. I'm surprised by this, given  all the reasons I've stated why big oranges are good. What's also  surprising, but equally surprisingly common, is that people will comment about how the orange looks nice but state that they'd never eat one.  They stand there and watch me take it out my bag or pick it up from its  resting place on my desk and begin the peeling process. Maybe they  mutter it, maybe they say it clear as day, or maybe they just think it,  but it's always the same: "I'd never eat a big orange".
 
 Now is a  good time to talk about the process of peeling a big orange. I think  this is important as I think this is one of the main reasons why people  don't like eating big oranges. I could be wrong as I've never challenged people to why they'd never eat a big orange, out of respect of their  life choices, but I reckon the peeling plus one other item is why.

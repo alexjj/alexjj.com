@@ -22,6 +22,7 @@ I'm enjoying undertaking [SOTA](https://gm5alx.uk/sota.html) activations - climb
 
 * [Radio blog](https://gm5alx.uk)
 * [Wiki](https://wiki.alexjj.com)
+* Idle chatting with a cup of [tea](https://fondotea.com)
 * [Github](https://github.com/alexjj)
 
 ### This site
