@@ -10,7 +10,7 @@ Hi! 👋 I'm Alex Johnstone. This is my weblog of interesting sundries. I enjoy 
 
 ## Now
 
-I'm enjoying undertaking [SOTA](https://gm5alx.uk/sota.html) activations - climbing mountains with my radio - and working my way towards 1,000 points to achieve Mountain Goat status. Replaying GTA V with the new enhanced edition, reminds me of life in SoCal. Also been thinking about rock tumbling.
+I'm enjoying undertaking [SOTA](https://gm5alx.uk/sota.html) activations - climbing mountains with my radio - and working my way towards 1,000 points to achieve Mountain Goat status. Replaying GTA V with the new enhanced edition. Also been thinking about rock tumbling.
 
 
 ## Pages
