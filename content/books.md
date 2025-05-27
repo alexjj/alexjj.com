@@ -8,6 +8,7 @@ List of books I've read:
 
 ### 2025
 
+* _Wind and Truth_, (2024), Brandon Sanderson, 1330 pg
 * _The Rithmatist_, (2013), Brandon Sanderson, 386 pg
 
 ### 2024
