@@ -80,7 +80,6 @@ The truly sandbox nature, the single world that everyone played it, and the hars
 
 It's been a long time since I've played and much of what I've done is long forgotten. I've tried to remember some of the highlights of my time playing. My core years were 2008 to about early 2010, so just two years really, but boy did it feel like a lifetime of experience. The game doesn't share play hours (unlike World of Warcraft) but I'm sure mine would've been scary during those two years. We didn't have kids, we didn't have that much money and spent most of our free time at home, and that meant I was on Eve all evening, every evening, and then most of the weekends...easy I could do 40 hours a week...and that's excluding when I was meant to be at work!
 
-
 ### Escaping low sec one tick before standings were lost
 
 When I restarted playing in 2008, I joined the corporate my friend was in. I don't know how he found it, but they were quite a nice bunch, mix of Americans and Europeans, and so someone was always online.
@@ -106,8 +105,6 @@ During the day there were talks and I got to try the new VR headset and game the
 The first evening was a pub crawl, which started really well, and then we went on the ferris wheel but it was about a 30 minute ride and by which time everyone had sobered up and were a bit bored, plus when it came back around the rest of the places on the pub crawl had closed. However, given it was Vegas there's no shortage of places to visit. We had some pizza, then set off on some mission to find a particular bar. No one could find it and I think we got pulled into one of those places you get a table with a bottle of whiskey or something but it costs $300, and was like a fine dining restaurant. After that we were on the streets of Las Vegas at 1 or 2 am and what an eye opener that was. We finished the night in the casino. I did not go near any gambling stuff as I had no idea what was going on.
 
 The next day we had a nice trip to the Hoover Dam before returning to the event and the free private bar that evening. There we heard lots of tales from very interesting characters.
-
-
 
 This is taken from the bio on the main character of a good person I met through Eve, and it does sum up exactly how I remember the game.
 
