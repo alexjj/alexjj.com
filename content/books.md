@@ -8,6 +8,7 @@ List of books I've read:
 
 ### 2025
 
+* _Pastoralia_, (2000), George Sanders, 188 pg
 * _Blindsight_, (2006), Peter Watts, 384 pg
 * _Wind and Truth_, (2024), Brandon Sanderson, 1330 pg
 * _The Rithmatist_, (2013), Brandon Sanderson, 386 pg
