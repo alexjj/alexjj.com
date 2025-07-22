@@ -8,6 +8,8 @@ List of books I've read:
 
 ### 2025
 
+* _Lost Stars_, (2015), Claudia Gray, 551 pg
+* _Wool_, (2013), Hugh Howey, 576 pg
 * _Pastoralia_, (2000), George Sanders, 188 pg
 * _Blindsight_, (2006), Peter Watts, 384 pg
 * _Wind and Truth_, (2024), Brandon Sanderson, 1330 pg
