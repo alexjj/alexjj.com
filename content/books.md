@@ -218,15 +218,7 @@ I stopped recording them in early 2019...
 * _Going Postal (Discworld, #33; Moist von Lipwig, #1)_, (2005), Terry Pratchett, 394 pg  
 * _The Grapes of Wrath_, (2002), John Steinbeck, 455 pg  
 * _Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch_, (2006), Terry Pratchett, 491 pg  
-* _Rama Revealed (Rama, #4)_, (1998), Arthur C. Clarke, 633 pg  
-* _The Garden of Rama (Rama, #3)_, (1993), Arthur C. Clarke, 593 pg  
-* _Rama II (Rama #2)_, (1996), Arthur C. Clarke, 512 pg  
-* _The Picture of Dorian Gray_, (2008), Oscar Wilde, 253 pg  
-* _The Autobiography of Malcolm X_, (2015), Malcolm X, 466 pg  
-* _Rendezvous with Rama (Rama, #1)_, (2009), Arthur C. Clarke, 246 pg  
 * _Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values (Phaedrus, #1)_, (2006), Robert M. Pirsig, 540 pg  
-* _The Princess Bride_, (2003), William Goldman, 429 pg  
-* _No Country for Old Men_, (2006), Cormac McCarthy, 309 pg  
 * _Ender's Shadow_, (1999), Orson Scott Card, 380 pg  
 * _The Girl With the Dragon Tattoo (Millennium, #1)_, (2008), Stieg Larsson, 480 pg  
 * _Hyperion (Hyperion Cantos, #1)_, (1990), Dan Simmons, 500 pg  
