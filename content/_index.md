@@ -10,7 +10,7 @@ Hi! 👋 I'm Alex Johnstone. This is my weblog of interesting sundries. I enjoy 
 
 ## Now
 
-I'm enjoying undertaking [SOTA](https://gm5alx.uk/sota.html) activations - climbing mountains with my radio - and working my way towards 1,000 points to achieve Mountain Goat status. Replaying GTA V with the new enhanced edition. Also been thinking about rock tumbling.
+I’m enjoying being a radio amateur, callsign GM5ALX, and undertaking SOTA activations - climbing mountains with my radio - and working my way towards 1,000 points to achieve Mountain Goat status. I used to play computer games but now I just like the idea of them.
 
 
 ## Pages
@@ -20,9 +20,9 @@ I'm enjoying undertaking [SOTA](https://gm5alx.uk/sota.html) activations - climb
 
 ## Elsewhere
 
+* Idle chatting with a cup of [tea](https://fondoftea.com)
 * [Radio blog](https://gm5alx.uk)
 * [Wiki](https://wiki.alexjj.com)
-* Idle chatting with a cup of [tea](https://fondoftea.com)
 * [Github](https://github.com/alexjj)
 
 ### This site
