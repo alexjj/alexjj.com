@@ -282,6 +282,3 @@ I stopped recording them in early 2019...
 * _Green Eggs and Ham_, (1988), Dr. Seuss, 64 pg  
 * _The Hobbit, or There and Back Again_, (2002), J.R.R. Tolkien, 366 pg  
 * _Animal Farm_, (2003), George Orwell, 129 pg  
-
-* _The Great Hunt_ (1990), Robert Jordan, 681 pg
-* _The Eye of the World_ (1990), Robert Jordan, 782 pg
