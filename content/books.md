@@ -8,6 +8,15 @@ List of books I've read:
 
 ### 2025
 
+* _The Ninth Rain (Winnowing Flame #1_, (2017), Jen Williams, 550 pg
+* _The First Fifty: Munro-bagging without a beard_, (1991), Muriel Gray, 249 pg
+* _Brothers of the Wind_, (2022), Tad Williams, 272 pg
+* _Legends II: New Short Novels - Homecoming_, (2004), Robin Hobb, 64 pg
+* _Touching the Void_, (1988), Joe Simpson, 224 pg
+* _Darth Bane: Path of Destruction_, (2006), Drew Karpyshyn, 324 pg
+* _Isles of the Emerdark_, (2025), Brandon Sanderson, 533 pg
+* _The Broken Earth (The Broken Earth #3)_, (2017), N. K. Jemisin, 464 pg
+* _The Obelisk Gate (The Broken Earth #2)_, (2016), N. K. Jemisin, 448 pg
 * _The Fifth Season (The Broken Earth #1)_, (2015), N. K. Jemisin, 468 pg
 * _Echopraxia_, (2014), Peter Watts, 384 pg
 * _Dust_, (2013), Hugh Howey, 416 pg
