@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="alternate" type="application/rss+xml" href="https://webzine.puffy.cafe/atom.xml">
+	<meta property="og:title" content="Special OpenBSD webzine issue: OctOpenBSD 2023">
+	<meta property="og:description" content="Webzine created by volunteers who are passionate about the OpenBSD project development.">
+	<meta property="og:url" content="https://webzine.puffy.cafe/issue-16-special-octopenbsd-2023.html">
+	<meta property="og:image" content="https://webzine.puffy.cafe/images/ob-wz-monochrome-fs8.png" name="image">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_EN">
+	<meta name="author" content="Solène Rapenne, Tomáš Rodr">
+
+<title>OpenBSD Webzine Special</title>
+<style>
+
+@font-face {                                                                                                                                                                                 
+    font-family: "atari";                                                                                                                                                                
+    src: url("atari.ttf");                                                                                                                                           
+}
+
+html, body {
+	background:white;
+	font-family: serif;
+	font-size: 1.1em;
+}
+
+h1 {
+	font-size: 3em;
+	text-align:center;
+	margin-bottom:0;
+}
+
+h1 a {
+	padding:.1em;
+	text-decoration-line: none;
+	color: black
+}
+
+
+h1 a:hover { 
+	color: white;
+	background: black;
+}
+
+h1 span {
+	border-bottom:3px solid black;
+}
+
+h2 {
+	text-align: left;
+}
+
+#mag {
+	max-width:1150px;
+	margin: auto;
+	box-shadow:5px 5px black;
+	border-left:3px solid black;
+	padding: 2em;
+}
+
+.sp_thumb {
+	border:5px solid black;
+	display:inline-block;
+	/*max-width:30%;*/
+	width: 30%;
+}
+
+#mini {
+	margin: auto;
+	text-align: center;
+}
+
+#mini h2 {
+	text-align: center;
+}
+
+.mini {
+	max-width:38%;
+	display:inline-block;
+	border: 2px solid black;
+	padding:.3em;
+	margin:1em;
+}
+
+.mini li {
+	text-align: left;
+}
+
+#banner {
+	border-top:double .2em black;
+	border-bottom:double .2em black;
+	padding-top:1em;
+	text-align:center;
+	margin-top:12em;
+	margin-bottom:12em;
+	background: black;
+	color: white;
+	padding:1em;
+}
+
+#banner p {
+	text-align:right;
+}
+
+#banner a {
+	color: black;
+	text-decoration-line: underline;
+	text-decoration-style: double;	
+}
+
+#banner a:hover {
+	color: white;
+}
+
+.issue {
+	display: block;
+	float: left;
+}
+
+#banner h2 {
+	text-align:left;
+}
+
+li {
+	list-style-type: square;
+	margin-bottom:.5em;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color:white;
+	background: black;
+}
+
+p {
+	line-height:1.5;
+	text-align:justify;
+	padding-left:.5em;
+	padding-right:.7em;
+}
+
+#toc p {
+	text-align:center;
+	margin:1em;
+	margin-bottom:.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: monospace;
+	font-size:1.1em;
+}
+
+#toc .details {
+	text-align: left;
+	font-weight: normal;
+	font-family: monospace;
+	margin-left: 4em;
+	font-size: 1em;
+}
+
+.ams a {
+	color: white;	
+}
+
+.ams a:hover {
+	color: black;
+	background: white;
+}
+
+.details span {
+	font-weight: normal;
+	text-transform: none;
+}
+
+#toc .motto {
+	font-weight: normal;
+	font-family: monospace;
+	font-size:.9em;
+	margin:0;
+}
+
+#toc h2 {
+	text-align: center;
+}
+
+#toc ul {
+	margin-left:7em;
+	margin-top:4em;
+	margin-bottom:4em;
+}
+
+#toc li {
+	margin-bottom:1em;
+	list-style-type: none;
+	font-family: monospace;
+}
+
+#toc li a {
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size:1.1em;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.motto {
+	text-align: center;
+	font-size:.8em;
+}
+
+#ad {
+	font-size:3em;
+	margin-bottom: 0;
+	margin-left:2em;
+}
+
+#cyber {
+	color: white;
+	background: black;
+}
+
+#cyber p {
+	padding-left:3em;
+	padding-right:3.5em;
+}
+#cyber .by {
+	background:white;
+	color: black;
+	max-width:95%;
+}
+
+#cyber h2 {
+	font-size: 3em;
+	color: white;
+	padding:.5em;
+	font-family: atari;
+}
+
+.ams {
+	background: black;
+	color: white;
+}
+
+h3 {
+	clear:both;
+}
+
+.ams img {
+	filter:invert(100%);
+}
+
+#gaming h3 {
+	margin-top:3em;
+}
+
+pre {
+	margin-left:2em;
+	overflow: scroll;
+}
+
+img {
+	display: block;	
+	margin:auto;
+	max-width:99%;
+	border:3px solid black;
+	filter:grayscale(100%);
+}
+
+img:hover {
+	filter: grayscale(0%);
+}
+
+code {
+	background: black;
+	color: white;
+	padding:.3em;
+}
+
+article {
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+.author {
+	font-style:italic;
+	font-family:serif;
+}
+
+.by {
+	font-family: monospace;
+	margin-right:1em;
+}
+
+h3 {
+	margin:0;
+	margin-top:1em;
+	background:black;
+	padding:.3em;
+	color:white;
+}
+
+.spookystory {
+	font-style: italic;
+	font-size:.9em;
+	text-align: justify;
+}
+
+.octopus {
+	border:0;
+	max-width:33%;
+	float:right;
+	margin-left:1em;
+	margin-bottom: 1em;
+}
+
+.fll {
+	float:left;
+	margin-right:1em;
+	margin-bottom:1em;
+}
+
+.mono {
+	font-family: monospace;
+}
+
+#tales h2 {
+	text-align: center;
+	font-weight: normal;
+	font-size:2.5em;
+	margin-bottom: 2em;
+
+}
+
+#tales span {
+	font-size:.8em;
+}
+
+#s74 h2 {
+	font-size:7em;
+	text-align: center;
+	font-family:sans;
+}
+
+#s74 h4 {
+	margin-left:1em;
+}
+
+#gaming h2 {
+	font-size: 4em;
+
+} 
+
+.surr {
+	border: none;
+}
+
+hr {
+	clear:both;
+}
+
+.code {
+	background:black;
+	color:white;
+	max-width:88%;
+	padding:.3em;
+}
+
+#unix_surrealism h2 {
+	display:none;
+}
+
+#octopen {
+	float: left;
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	font-size:3em;
+	margin-right:.3em;
+}
+
+#intro {
+	max-width: 32em;
+	margin-bottom:2em;
+}
+
+#xconsole h2 {
+	text-align: center;
+	font-size:4.5em;
+	font-weight:normal;
+	font-family:monospace;
+}
+
+#xconsole h4 {
+	font-family:monospace;
+	font-size: 1.5em;
+	margin:0;
+	margin-top:2em;
+	margin-left:2em;
+	font-weight:normal;
+}
+
+#hands {
+	background: white;
+	color: black;
+	text-align: center;
+	font-weight:normal;
+	font-size:2em;
+}
+
+.double {
+	border:0;
+	border-bottom: double .2em black;
+	clear:both;
+	margin-top:3em;
+	margin-bottom:3em;
+}
+
+#links ul {
+	display: block;
+}
+
+#links li {
+	margin-bottom: .5em;
+	max-width:60%;
+	display:block;
+}
+
+#links h2 {
+	background: black;
+	color: white;
+	padding:.3em;
+	margin-bottom: 0;
+	
+}
+
+#matto h2 {
+	font-weight: normal;
+	font-size: 2.5em;
+	text-align: center;
+	color: white;
+	background: black;
+	padding: .5em;
+	margin-bottom:0;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+#matto h3, #xconsole h3 {
+	font-weight: normal;
+	background: white;
+	color: black;
+	font-size:1.5em;
+	margin:0;
+	margin-top:1em;
+}
+
+#matto pre {
+	color: white;
+	background: black;
+	padding:.3em;
+}
+
+#matto .mono {
+	margin:2em;
+}
+
+.hallo {
+	margin-top:14em;
+}
+
+
+@media only screen and (max-width: 640px) {
+	body {
+	width: 98%;
+	margin:auto;
+}
+	#intro {
+	max-width:100%;
+}
+
+	#ad {
+	margin-left:.5em;
+}
+
+	#toc ul {
+	margin-left: 1em;
+}
+
+	#links li {
+	max-width: 100%;
+}
+	#links ul {
+	margin:0;
+	padding:0;
+	margin:auto;
+}
+
+
+	.octopus {
+	float: none;
+	max-width: 100%;
+	margin:auto;
+} 
+
+	.fll {
+	float: left;
+	max-width:30%;
+	margin-right:1em;
+	margin-bottom:.5em;
+}
+
+	.extra {
+		display: none;
+	}
+	
+	.sp_thumb {
+		width: 24%;
+	}
+	
+	#mag {
+	padding: 1em;
+	}
+
+	.mini {
+	max-width:95%;
+}
+
+}
+
+.permalink::before { content: "↗ "; }
+.permalink { display: inline-block; }
+#toc .license { font-family: serif; font-weight: normal; font-size: .8em; margin:0; } 
+#toc .license em { text-transform: none;}
+#license {margin-top:6em; margin-bottom: 2em;} 
+
+</style>
+</head>
+<body>
+
+<div id="mag">
+
+    <p style="text-align: center; word-spacing: 5px;">
+        En
+        <a href="es_issue-16-special-octopenbsd-2023.html">Es</a>
+        <a href="ru_issue-16-special-octopenbsd-2023.html">Ru</a>
+    </p>
+
+<div id="banner">
+  <img class="sp_thumb" src="images/sp3.png" alt="spooky puffy 3">
+  <img class="sp_thumb" src="images/sp1.png" alt="spooky puffy 1">
+  <img class="sp_thumb" src="images/sp2.png" alt="spooky puffy 2">
+  <p>October 31st, 2023</p>
+</div>
+
+<article id="intro">
+  <h2 id="octopen">OctOpenBSD</h2>
+  <p class="mono">is a month dedicated to the OpenBSD operating system, celebrating its usage, formally announced by Solène on the 1<sup>st</sup> of October.  The event invited users to share with the world their experience with OpenBSD.  Somewhat subversively, it was never said out loud what the culmination of the event will be. It has been four weeks since OctOpenBSD began and this special OpenBSD Webzine issue is the result of that event.  Needless to say, in the wake of popular manipulations with the month of October, think inktober or spooktober, preceeding OctOpenBSD  was a humorous suggestion to release a Halloween themed issue at the end of the month.  Though the idea was entertaining, it eventually evolved into a project celebrating OpenBSD and by extension its net-free insect daemon siblings. While the outskirts of the free and open cyberspace still permeates intoxicated ideas about the use-cases for BSD systems,  their users have long since known that those, who find their paths crossed by spiked fish, daemons and dragonflies and fall under their spell, rarely look back. The special issue hopes to show you something new, useful, funny and scary, and perhaps help you find new authors and projects to follow. Whether you swim with the fish in the C, or just observe it from afar, saddled on the back of a penguin, this issue is for you, all the hackers, techno-wizards, the curious, the amateurs and the veterans of the cyberwars.  May you have a pleasant read through this special issue. And as always: RUNBSD.</p>
+</article>
+
+<hr class="double">
+<p class="mono motto"><a href="https://bsd.network/@solene/111245934085536379" class="permalink">solene</a>: "It's the OctOpenBSD!"</p>
+<hr class="double">
+
+<article id="toc">
+  <h1><a href="https://webzine.puffy.cafe"><span><i>Open</i>BSD</span> Webzine</a></h1>
+  <p>The Special OctOpenBSD issue</p>
+  <p class="motto"><em>"The fish came to me in a dream"</em></p>
+
+  <ul>
+    <li><a href="#s74">7.4</a></li>
+    <li><a href="#tales">Tales from the Aquarium</a></li>
+    <li><a href="#matto">MFS</a>, matto</li>
+    <li><a href="#xconsole">xconsole</a>, prahou</li>
+    <li><a href="#gaming">OpenBSD gaming</a>, thfr, op</li>
+    <li><a href="#cyb">CYBFARM</a>, z3bra</li>
+    <li><a href="#ad">Lispy Gopher Show</a>, screwtape</li>
+    <li><a href="#unix_surrealism">unix_surrealism</a></li>
+    <li><a href="#links">going further</a></li>
+  </ul>
+
+  <p class="details">Header images : <span>Three photos of prahou's Puffy</span></p>
+  <div id="license">
+    <p class="license">Solène Rapenne, Tomáš Rodr</p>
+    <p class="license">Translation :<br> quobit (Spanish), continue (Russian)</p>
+    <p class="license">Content under <a class="permalink" href="https://creativecommons.org/licenses/by/4.0/legalcode">CC-BY-4.0</a>.</p>
+    <p class="license"> Authored texts and artwork under their own licenses.</p>
+    <p class="license"><em>Many thanks to everyone involved in the creation of this special webzine issue</em></p>
+    <p class="license"><a class="permalink" href="https://webzine.puffy.cafe/atom.xml">Feed ATOM</a></p>
+  </div>
+</article>
+
+<hr class="double">
+
+<article id="s74">
+  <h2>7.4</h2>
+  <h3>-stable updates since the last webzine issue</h3>
+  <img src="images/74.png" alt="girl and puffy" class="surr octopus">
+  <h4>001 (all architectures)</h4>
+  <p>Fix several input validation errors in the X server.</p>
+  <ul>
+    <li><a href="https://cdn.openbsd.org/pub/OpenBSD/patches/7.4/common/001_xserver.patch.sig" class="permalink">001</a></li>
+  </ul>
+
+  <h4>002 (all architectures)</h4>
+  <p>Network buffer that had to be split at certain length could crash the kernel.</p>
+  <ul>
+    <li><a href="https://cdn.openbsd.org/pub/OpenBSD/patches/7.4/common/002_msplit.patch.sig" class="permalink">002</a></li>
+  </ul>
+</article>
+
+<hr class="double">
+
+<article id="tales">
+  <h2><em>Scary</em> Tales <br>from <br><span>(not just)</span> <br>the <br>Aquarium</h2>
+  <img src="images/octopus.png" alt="octopus puffy" class="octopus fll">
+  <p class="spookystory">ghane: Booting up my Thinkpad X220 after a few weeks of it not being used. Taking longer than usual... I start to get worried: "Why haven't it booted yet?" Then: fsck output fills the whole screen with cleared inodes, etc. Panic starts to build. Is this the end of my SSD? All my non-backed-up data! All my code projects are on that one... (I have of course git mirrors elsewhere, but they might not have been synced up recently.) Panic starts to build while it is effsucking! Then it finally starts. I can log in. Files look good, and when I double-check which partitions were affected, it was only /tmp and /var. I start to get relieved, but then realize that I might have had it hibernated with some important tabs in firefox. In private mode. So those are gone, of course... but it could have been so much worse.</p>
+  <p class="spookystory"><a class="permalink" href="https://mastodon.sdf.org/@gnemmi">gnemmi</a>: Back when I bought the Thinkpad E490 that I'm typing this from, Dragonfly wouldn't boot due to a double fault in ACPI (typically such a <b>me</b> kind of recursion issue on the stack) due to AML bugs. So I told Dillon, and he had me go "memory address by memory address" looking for symbols that look like <a class="permalink" href="https://apollo.backplane.com/DFlyMisc/noob237.txt">functions</a>. He came up with a <a class="permalink" href="https://gitweb.dragonflybsd.org/dragonfly.git/commit/d9bb5dfdc3905237fb704584b71c9e0a9627656c">patch</a> so I could boot my new Thinkpad!  Everything was done from syscons!</p>
+  <p class="spookystory"><a href="https://masto.ai/@simondassow" class="permalink">simon</a>: Many, many years ago I tweaked the bge driver on an OpenBSD production box to allow IPMI pass-through...</p>
+  <p class="spookystory">anonymous BSD user: One night I'm trying to SSH to my external IP address and get an SSH key warning! <b>Big panic of being hacked!</b> But it was just my ISP, who had a fiber modem/media converter thing that had an incorrectly configured remote management ssh interface, so it stole the ssh traffic! So, I was in fact sshing to another box, on my own IP!</p>
+  <p class="spookystory"><a href="https://hachyderm.io/@miah" class="permalink">miah</a>: Once upon a time, a friend and I were installing NetBSD on some old Apple hardware. We got through the install, it booted up, but... networking wasn't working. WTF? After scratching our heads and looking at <b>everything</b> we discovered the time on the system was set to a date <b>before</b> the UNIX Epoch. We reset the hardware clock to be within the epoch (and accurate to the date) and suddenly... we could ping!</p>
+  <p class="spookystory"><a href="https://freeradical.zone/@loop0" class="permalink">loop0</a>: running a mail server for an ISP and all of a sudden, the IMAP server stopped working for no reason. Mapped it down to a corrupted shared library file - the fix was to copy the same file from another BSD that was running the same version, but it took me a couple hours to find that out and it didn't help that it was during the weekend during my off-hours. And so it happens - I had one-too-many drinks that day.</p>
+  <p class="spookystory"><a href="https://merveilles.town/d6" class="permalink">esoterik</a>: Running netbsd/macppc on an old power macintosh 8600/120 I had to write OpenFirmware forth code blind to enable the display before installing it. The first time I tried it, it didn't work and I thought that maybe I bricked the machine! I eventually managed to reset the firmware and do it correctly to enable the display. The machine had a good life providing NAT/DHCP/firewall/filesharing for some friends of mine.</p>
+</article>
+
+<hr class="double">
+
+<article id="matto">
+  <h2 id="ramdisk">Mount a Memory File System (MFS) on OpenBSD</h2>
+  <p class="by">: <a class="permalink" href="https://box.matto.nl">matto</a></p>
+  <p>A Memory File System (MFS) is a file system set up in virtual memory, sometimes called a "RAM-disk". A MFS lives in RAM, and when it is unmounted, the contents of the file system are lost.</p>
+  <h3> Populating the MFS</h3>
+  <p>OpenBSD has a very interesting mount option for memory file systems. This is the option "-P".</p>
+  <p>In the man page it is described as "-P file". This is what the man pages states:</p>
+  <p class="mono">If file is a directory, populate the created mfs file system with<br> the contents of the directory. If file is a block device, populate<br> the created mfs file system with the contents of the FFS file system<br> contained on the device.</p>
+  <p>Before mounting the MFS, you set up a directory tree, and call the mount_mfs command with the "-P" flag, pointing to the root of this directory tree. The MFS is mounted and immediately populated with the contents of the directory tree.</p>
+
+  <h3> Setting the MFS size</h3>
+  <p>The option "-s" is used to set the size of the MFS. With this option, you maximize the amount of RAM that the MFS can use. This is the size in sectors, usually 512 bytes. So, to mount a MFS of 10MB we have to set a size of 20480.</p>
+
+  <h3> Mounting the MFS</h3>
+  <p>As usual we have to state the device to mount. For MFS, we use swap. Let us say we have a directory tree on our system in "/proto/test", and we want a 10MB MFS, mounted in /mnt.</p>
+  <p>This would be our mount command:</p>
+  <pre>mount_mfs -o rw -s 20480 -P /proto/test swap /mnt</pre>
+  <p>Or, as a line in /etc/fstab:</p>
+  <pre>swap /mnt mfs rw,-P=/proto/test,-s=20480 0 0</pre>
+
+  <h3>Read the friendly manual</h3>
+  <p>There are many options. The man page for mount_mfs is very valuable. Read it.</p>
+
+  <h3>Why is this useful</h3>
+  <p>A MFS is useful on systems with read-only storage or systems that run f.e., from an SD-card. This way we can reduce the number of writes to the SD-card. An example of this is to run /var/log in a SBC like a Raspberry Pi in MFS. We can set up a minimal tree in /proto/var/log and populate the MFS with that using the -P option.</p>
+  <p>For this the line in /etc/fstab could be something like this:</p>
+  <pre>swap /var/log mfs rw,nosuid,noexec,-P=/proto/var/log,-i=128,-s=16384 0 0</pre>
+  <p>Another example is a small home directory for such systems, with a small directory tree containing f.e., .ssh/authorized_keys. Again, this prevents writing to the disk.</p>
+  <p>A bigger and perhaps more exotic example is to run your entire home directory on your laptop in MFS. You can setup all your config files and so on in a proto-directory, and use that to populate your home in MFS. This way you start with a clean slate after every boot.</p>
+</article>
+
+<hr class="double">
+
+<article id="xconsole">
+  <h2>xconsole</h2>
+  <p class="by">: <a class="permalink" href="https://triapul.cz">prahou</a></p>
+  <p>The <code>xconsole(1)</code> is often a target of undeserving hate among OpenBSD users composing guides on how to tweak the desktop experience. Often I come across sentences like: <em>"next let's get rid of the ugly xconsole"</em>, but I'm here to preach in defense of xconsole and to make you consider otherwise, turning it into a minimalistic message center.</p>
+  <p>The fundamental thing to know is that any output redirected to <code>/dev/console</code> will appear in the xconsole window.</p>
+  <pre class="code">$ print "hi, xconsole" >/dev/console</pre>
+  <p>Perhaps it's already becoming apparent, how you could utilize this.</p>
+  <h3>Customization</h3>
+  <p>If the xconsole is started automatically with xenodm, one can customize its appearance in <code>/etc/X11/xenodm/Xsetup_0</code> with options, or if it is started manually, say through .xsession, one can customize it through .Xresources (and run xrdb -merge ~/.Xresources) after logging in, before starting xconsole.</p>
+  <h4>Running xconsole automatically, after logging in:</h4>
+
+<pre class="code">..
+#in .xsession
+xrdb -merge ~/.Xresources
+xconsole &
+..</pre>
+
+<pre class="code">..
+!Xresources
+xconsole*background : pink
+xconsole*foreground : black
+..</pre>
+
+  <h4>Running xconsole manually:</h4>
+  <p>This command will start the xconsole with an orange background, white text and the fixed-20 bitmap font.</p>
+  <pre class="code">$ xconsole -fn -misc-fixed-medium-r-*-*-20-*-*-*-*-*-iso10646-1 -bg orange -fg white</pre>
+
+  <h3>Some basic examples</h3>
+  <h4>cwm companion</h4>
+  <p>Return the CPU temperature when pressing Super+W:</p>
+
+<pre class="code">#a script
+#!/bin/sh
+echo "The CPU temperature is: $(sysctl -n hw.sensors.cpu0.temp0)" >/dev/console</pre>
+
+<pre class="code">#in .cwmrc
+bind-key 4-w /path/to/script</pre>
+
+  <h4>new email</h4>
+  <p>For email clients that support custom command execution on mail delivery, for example with the Mutt client, one could execute the following script through Muttrc:</p>
+
+<pre class="code">#a script
+#!/bin/sh
+echo "$(date +%H:%M) New mail!" >/dev/console</pre>
+
+<pre class="code">#in Muttrc
+set new_mail_command = "/path/to/previous/script"</pre>
+
+  <p>The possibilities are endless. Give xconsole a chance.</p>
+
+</article>
+
+<hr class="double">
+
+<article id="gaming">
+  <img src="images/gaming.png" alt="puffy with a gamepad" class="octopus">
+  <h2>OpenBSD<br> gaming</h2>
+  <h3>Moonring</h3>
+  <p class="by">: <a href="https://bsd.network/@thrf" class="permalink">thfr</a></p>
+  <p>Moonring is an homage to the early RPGs in the vein of ultima. It's 100% free on Steam and runs on OpenBSD using the package love, version 11.</p>
+
+  <p>Use the still in alpha <code>indierunner</code> or simply:</p>
+  <p><code>$ love-11 moonring.exe</code></p>
+
+  <img src="images/thfr.png" alt="moonring game screenshot">
+
+  <ul>
+    <li><a href="https://store.steampowered.com/app/2373630/Moonring/" class="permalink">Moonring on Steam</a></li>
+    <li><a href="https://github.com/IndieRunner/IndieRunner/commit/d97816c3da3a42503dc6bb87b1ed518db4ccfe9c" class="permalink">IndieRunner on GitHub</a></li>
+  </ul>
+
+  <h3>godot</h3>
+  <p class="by">: <a href="https://bsd.network/@op" class="permalink">op</a></p>
+  <p>Thanks to <a href="https://bsd.network/@thfr" class="permalink">thfr</a>, we're making progress with godot4 on OpenBSD. After a tiresome fight with some C++ types mismatches, here it is!</p>
+  <img src="images/godot.png" alt="screenshot of godot in openbsd" class="surr">
+
+  <hr>
+  <p class="mono">Join the #openbsd-gaming community on IRC at libera.chat!</p>
+
+</article>
+
+<hr class="double">
+
+<article>
+  <div id="cyber">
+    <h2 id="cyb">CYB3R HUNT</h2>
+    <img src="images/cybfarm.png" alt="cyber hunt">
+  </div>
+  <p class="by">: <a href="https://z3bra.org" class="permalink">z3bra</a></p>
+  <p>When the government decided to lock everyone down because of a worldwide pandemic, nobody expected it to last more than a few months.</p>
+  <p>People relied on home delivery more and more, and corporations built a self-sufficient network of automated farms and factories, to respond to the ever-growing demand: the CYBFARMs.</p>
+  <p>Within 10 years the CYBFARM network expanded, and their over-exploitation turned the world into a wasteland. As the world became more hostile, CYBFARMs sent spaceships around the globe, and started delivering everything there, forcing humanity to move into space.</p>
+  <p>For those stuck on the planet, gathering resources from these highly secured factories became a matter of life and death. After years of scavenging the CYBFARM's trashcans, hackers around the planet started looking into a more sustainable way to get food and supplies, by hacking it.</p>
+  <p>We call them CYBER HUNTERS.</p>
+  <hr>
+  <p class="mono"> The CYB3R HUNT is a game of which you are the hero.</p>
+  <p class="mono">Set in a dystopian future, you are a CYBER HUNTER scavenging supplies from the CYBFARM, a network of automated farms and factories controlled by a powerful artificial intelligence. Work your way through the puzzles set by the CYBFARM, earn "flags" to update your score, and discover the History of this world as your quest unfolds!</p>
+  <ul>
+    <li><a href="https://cyb.farm" class="permalink">CYB3R HUNT</a></li>
+  </ul>
+</article>
+
+<hr class="double">
+
+<article>
+  <h2 id="ad">It's<br> &nbsp;the<br> &nbsp; &nbsp;LISPY <br> &nbsp;GOPHER<br> SHOW!</h2>
+  <img src="images/lispy2.png" alt="lispy gopher show" class="ad pic surr">
+  <h3 id="hands">Two helping hands from BSD:<br>inetd and gophernicus</h3>
+  <p class="by">: <a href="https://mastodon.sdf.org/@screwtape" class="permalink">screwtape</a></p>
+  <p>Networking is hard to grok. A rollercoaster without a safety bar. And you have to build it yourself, and yourself and everyone you love is going to be on the maiden run. And you can't choose to not come.</p>
+  <p>Fortunately I am a recipient of how great OpenBSD is. On all the BSDs, inetd(8) internet super-server is the expected norm, implying high quality handling of all that networking stuff, rate limiting, figuring out what network connection is whose, what to run. It is with this context my friend Paul Someone else pioneers and shares lispy OpenBSD <a href="https://codeberg.org/pkw/web" class="permalink">networking</a>. Collaborative designed-accessible security is a name of the game, leading to the secure, dependable and fully featured gophernicus(1) among gopher servers (pledge(2)d and unveil(2)ed).</p>
+  <p>I was having trouble with enabling UTF-8 - what I had done ended up... A message to the mailing list taught me that I was setting my locale stuff too late, and over time helping context to find out that that commentary was the appropriate and useful thing to say. It's nice to feel halfway competent with my pf.conf(5) from the culture of sharing knowledge and accessibility of safety and strength.</p>
+  <p>This is not just about OpenBSD. If anything, juxtaposing the stock bozohttpd(8) on NetBSD to OpenBSD httpd(8) basically got me comfortable with inetd(8) at all, and the fairly gentooian FreeBSD install handbook on <em>So You Want X</em> (and OpenBSD for the faintest of heart). Actually this helped me port interlisp's maiko virtual machine build scripts of which one existed then for FreeBSD to OpenBSD readily. So I would even say the BSDs are a team (including difficulties, differences, disagreements) that make the lispy gopher climate possible! (literally SDF where the magic happens mainly uses NetBSD).</p>
+  <hr>
+  <p class="mono">screwtape is the host of the Lispy Gopher Show on aNONradio, live every Wednesday at 0UTC.</p>
+  <ul>
+    <li><a class="permalink" href="https://anonradio.net">aNONradio.net</a></li>
+    <li><a class="permalink" href="https://archives.anonradio.net/#screwtape">aNONradio archives</a></li>
+    <li><a class="permalink" href="gopher://gopher.club/1/users/screwtape">[gopher] ~screwtape's phlog at gopher.club</a></li>
+  </ul>
+</article>
+
+<hr class="double">
+
+<article id="mini">
+  <div class="mini ams">
+    <h2>openbsd<br>.amsterdam</h2>
+    <img src="images/amsterdam.png" alt="openbsd.amsterdam logo featuring the classical monochrome puffy design." class="surr">
+    <p>Want to experience the hassle-free experience of administrating your own server, but lack the hardware? Try openbsd.amsterdam VPS!</p>
+    <ul>
+      <li><a href="https://openbsd.amsterdam" class="permalink">openbsd.amsterdam</a></li>
+    </ul>
+  </div>
+
+  <div class="mini">
+    <h2 id="jouwbuis">jouwbuis.nl</h2>
+    <img src="images/cloudtube.png" class="surr" alt="cloudtube logo of multiple video windows stacked on top of each other">
+    <p class="by">: <a href="https://exquisite.social/@h3artbl33d" class="permalink">h3artbl33d</a></p>
+    <p>Jouwbuis is an alternative front-end for YouTube, that respects your privacy and shows no ads. The instance is ran and sponsored by h3artbl33d, a Dutch privacy activist and can be used by everyone. Jouwbuis is powered by CloudTube. Thank you and enjoy!</p>
+    <ul>
+      <li><a class="permalink" href="https://jouwbuis.nl/">jouwbuis.nl</a></li>
+    </ul>
+  </div>
+
+  <div class="mini">
+    <h2 id="technomage">analognowhere.com</h2>
+    <img src="images/technomagemini.png" alt="techno-mage girl" class="surr">
+    <p class="by">: <a href="https://merveilles.town/@prahou" class="permalink">prahou</a></p>
+    <p>BSD-inspired art in surrealism, featuring the adventures of Techno-Mage of the Open clan in the mysterious world of Analog Nowhere.</p>
+    <ul>
+      <li><a href="https://analognowhere.com" class="permalink">analognowhere.com</a></li>
+    </ul>
+  </div>
+
+  <div class="mini ams">
+    <h2 id="cybernuk">cybernuk.es</h2>
+    <img src="images/cybernuk-logo.png" class="surr" alt="cybernuk.es logo of a pen inside the nuclear sign">
+    <p class="by">: <a href="https://exquisite.social/@h3artbl33d" class="permalink">h3artbl33d</a></p>
+    <p>Pentesting the net. Privacy respecting frontends and a SearXNG instance.</p>
+    <p>Hosted in .NL, logging is completely disabled.</p>
+    <ul>
+      <li><a href="https://cybernuk.es/" class="permalink">cybernuk.es</a></li>
+    </ul>
+  </div>
+
+</article>
+
+<hr class="double">
+
+<article id="unix_surrealism">
+  <h2>unix_surrealism</h2>
+  <img src="images/unix_surrealism.png" alt="unix_surrealism" class="surr">
+  <img src="images/thedaemon8.png" alt="puffy as an octopus, clicking" class="surr">
+  <p class="mono">Puffer fish with tentacles operates a computer</p>
+  <p class="by">: <a href="https://thedaemons.space">thedaemon</a></p>
+  <hr>
+  <img src="images/technomage.png" alt="techno-mage">
+  <p class="mono">tiny daemons deliver a computer component up a girl's arm</p>
+  <p class="by">: <a href="https://merveilles.town/@prahou" class="permalink">prahou</a></p>
+  <hr>
+  <p>Do you make BSD art? Share it with the world through unix_surrealism!</p>
+  <ul>
+    <li><a href="https://lemmy.sdf.org/c/unix_surrealism" class="permalink">[lemmy] unix_surrealism</a></li>
+  </ul>
+</article>
+
+<hr class="double">
+
+<article id="links">
+  <h2>Going further</h2>
+  <img src="images/veronika.png" class="surr octopus" alt="black and white veronika with a run bsd sticker on her shoulder">
+  <ul>
+    <li><a class="permalink" href="https://www.youtube.com/@EuroBSDcon/videos">EuroBSDCon 2023: All the videos</a></li>
+    <li><a class="permalink" href="https://2023.eurobsdcon.org/slides/">EuroBSDCon 2023: All the slides</a></li>
+    <li><a class="permalink" href="https://www.openbsd.org/papers/eurobsdcon2023-espie-cache.pdf">EuroBSDCon 2023: espie@ talk about pkg_add</a></li>
+    <li><a class="permalink" href="https://www.openbsd.org/papers/eurobsdcon2023-kn-installer.pdf">EuroBSDCon 2023: kn@ talk about the OpenBSD installer</a></li>
+    <li><a class="permalink" href="https://www.openbsd.org/papers/eurobsdcon2023-bluhm-mitigations.pdf">EuroBSDCon 2023: @bluhm talk about all the security mitigations available in OpenBSD</a></li>
+    <li><a class="permalink" href="https://www.openbsd.org/papers/eurobsdcon2023-matthieu-wayland-openbsd.pdf">EuroBSDCon 2023: Towards running a Wayland Compositor on OpenBSD</a> by matthieu@</li>
+    <li><a class="permalink" href="https://www.tumfatig.net/2023/using-openbsd-relayd8-as-an-application-layer-gateway/">Using OpenBSD relayd(8) as an Application Layer Gateway</a></li>
+    <li><a class="permalink" href="https://www.cambus.net/openbsd-arm64-on-hetzner-cloud/">OpenBSD/arm64 on Hetzner Cloud</a> by fcambus@</li>
+    <li><a class="permalink" href="https://vincentdelft.be/post/post_20230821">Easily have encrypted files on OpenBSD</a></li>
+    <li><a class="permalink" href="https://si3t.ch/w/doku.php?id=ah:en:start">Host with OpenBSD</a></li>
+    <li><a class="permalink" href="https://www.henryleach.com/2023/10/installing-openbsd-on-a-hp-stream-11-laptop">Installing OpenBSD on a HP Stream 11 Laptop</a></li>
+    <li><a class="permalink" href="https://undeadly.org/cgi?action=article;sid=20230925061225">Viable ROP-free roadmap for i386/armv8/riscv64/alpha/sparc64</a></li>
+    <li><a class="permalink" href="https://marc.info/?l=openbsd-tech&m=169693428827975&w=2">malloc: more info in error message for write-after-free with option D</a></li>
+    <li><a class="permalink" href="https://undeadly.org/cgi?action=article;sid=20231024064619">OpenBSD's built-in memory leak detection</a></li>
+    <li><a class="permalink" href="https://undeadly.org/cgi?action=article;sid=20231005080904">E-mail Filters In C</a></li>
+    <li><a class="permalink" href="https://si3t.ch/log/2023-10-02-octopenbsd-server.txt">What do I do with OpenBSD? (server)</a>, FRENCH link!</li>
+    <li><a class="permalink" href="https://si3t.ch/log/2023-10-02-octopenbsd-desktop.txt">What do I do with OpenBSD? (workstation)</a>, FRENCH link!</li>
+  </ul>
+</article>
+
+<hr class="double">
+<p class="motto"><em>"Chanting from the Book of the Cyber Wars."</em></p>
+</div>
+<img src="images/halloween.png" class="hallo surr" alt="Girl and Puffy dressed up as each other pose for a photograph">
+</body>
+</html>
