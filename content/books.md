@@ -6,6 +6,11 @@ title = "Books"
 
 List of books I've read:
 
+### 2026
+
+* _The Poison Song (Winnowing Flame #3)_, (2019), Jen Williams, 576 pg
+* _The Bitter Twins (Winnowing Flame #2)_, (2018), Jen Williams, 624 pg
+
 ### 2025
 
 * _The Ninth Rain (Winnowing Flame #1_, (2017), Jen Williams, 550 pg
