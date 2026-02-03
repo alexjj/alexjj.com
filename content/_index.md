@@ -20,11 +20,6 @@ I’m enjoying being a radio amateur, callsign GM5ALX, and undertaking SOTA acti
 
 ## Elsewhere
 
-* Idle chatting with a cup of [tea](https://fondoftea.com)
 * [Radio blog](https://gm5alx.uk)
 * [Wiki](https://wiki.alexjj.com)
 * [Github](https://github.com/alexjj)
-
-### This site
-
-I'm using [Zola](https://www.getzola.org/) static site generator together with the [anemone](https://github.com/Speyll/anemone) theme.
