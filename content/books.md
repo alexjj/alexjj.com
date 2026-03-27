@@ -12,6 +12,7 @@ List of books I've read:
 * _Leia: Princess of Alderaan_, (2017), Claudia Gray, 416 pg
 * _Heir to the Empire_, (1991), Timothy Zahn, 508 pg
 * _Star Wars: Episode III: Revenge of the Sith_, (2005), Matthew Woodring Stover & George Lucas, 480 pg
+* _Kenobe_, (2013), John Jackson Miller, 400 pg
 * _The Poison Song (Winnowing Flame #3)_, (2019), Jen Williams, 576 pg
 * _The Bitter Twins (Winnowing Flame #2)_, (2018), Jen Williams, 624 pg
 
