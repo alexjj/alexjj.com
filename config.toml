@@ -10,8 +10,8 @@ taxonomies = [
 	{name = "tags", feed = true, paginate_by = 10},
 ]
 
-title = "alexjj.com"
-description = "Fond of tea"
+title = "Fond of tea"
+description = "A weblog about things"
 author = "Alex Johnstone"
 
 
