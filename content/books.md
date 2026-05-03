@@ -8,6 +8,12 @@ List of books I've read:
 
 ### 2026
 
+* _Splitting the Second: The Story of Atomic Time_, (2000), Tony Jones, 181 pg
+* _Rule of Two, Star Wars: Darth Bane #2_, (2007), Drew Karpyshyn, 343 pg
+* _Digital Minimalism: Choosing a Focused Life in a Noisy World_, (2019) Cal Newport, 304 pg
+* _Artemis_ (2017), Andy Weir, 305 pg
+* _The Egg_ (2009), Andy Weir, 3 pg
+* _Project Hail Mary_ (2021), Andy Weir, 482 pg
 * _The Way of the Hermit: My Incredible 40 Years Living in the Wilderness_, (2023), Ken Smith, 237 pg
 * _Leia: Princess of Alderaan_, (2017), Claudia Gray, 416 pg
 * _Heir to the Empire_, (1991), Timothy Zahn, 508 pg
